@@ -55,7 +55,7 @@ with st.sidebar:
             st.success("Knowledge base created successfully!")
 
 # --- Main Workspace: Q&A Engine ---
-st.markdown("<div class='main-title'>📚 BookLens</div>", unsafe_allow_html=True)
+st.markdown("<div class='main-title'>📚 StudyBot</div>", unsafe_allow_html=True)
 st.markdown("<div class='sub-title'>Ask deep questions and extract immediate intelligence from your literature.</div>", unsafe_allow_html=True)
 
 if os.path.exists("chroma_db"):
