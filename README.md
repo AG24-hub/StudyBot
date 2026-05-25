@@ -17,6 +17,9 @@ The chatbot can read PDF and text documents, create embeddings, store them in a 
 
 ---
 
+# Demo
+![StudyBot](Assets/image.png)
+---
 # Tech Stack
 
 - Python
