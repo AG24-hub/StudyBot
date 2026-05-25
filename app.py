@@ -169,8 +169,8 @@ else:
             context = "\n\n".join([doc.page_content for doc in docs])
             final_prompt = prompt.invoke({"context": context, "question": user_input})
             response = llm.invoke(final_prompt)
+
  
         # Append AI message
         st.session_state.chat_history.append({"role": "ai", "content": response.content})
         st.rerun()
- 
